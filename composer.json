@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "createforweb/crypto-message",
+    "description": "a simple laravel package for you to encrypt a message",
     "keywords": [
-        ":vendor_name",
+        "createforweb",
         "laravel",
-        ":package_slug"
+        "crypto-message"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/createforweb/crypto-message",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Cas Freriks",
+            "email": "freriks.cas@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,18 +30,17 @@
         "pestphp/pest-plugin-laravel": "^2.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "spatie/laravel-ray": "^1.26"
+        "phpstan/phpstan-phpunit": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Createforweb\\CryptoMessage\\": "src",
+            "Createforweb\\CryptoMessage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Createforweb\\CryptoMessage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Createforweb\\CryptoMessage\\CryptoMessageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "CryptoMessage": "Createforweb\\CryptoMessage\\Facades\\CryptoMessage"
             }
         }
     },
