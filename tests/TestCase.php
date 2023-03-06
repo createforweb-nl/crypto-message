@@ -2,9 +2,9 @@
 
 namespace Createforweb\CryptoMessage\Tests;
 
+use Createforweb\CryptoMessage\CryptoMessageServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Createforweb\CryptoMessage\CryptoMessageServiceProvider;
 
 class TestCase extends Orchestra
 {
