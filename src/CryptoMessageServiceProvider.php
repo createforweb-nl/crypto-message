@@ -2,9 +2,9 @@
 
 namespace Createforweb\CryptoMessage;
 
+use Createforweb\CryptoMessage\Commands\CryptoMessageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Createforweb\CryptoMessage\Commands\CryptoMessageCommand;
 
 class CryptoMessageServiceProvider extends PackageServiceProvider
 {
